@@ -42,7 +42,8 @@
   outline: 0;
   padding: 15px 30px;
   border-radius: 5px;
-  font-weight: 500;
+  font-size: 15px;
+  font-weight: 600;
   color: #333;
   cursor: pointer;
 }
@@ -64,4 +65,26 @@
 }
 #result span{
   color: #ffff76;
+}
+
+
+@media (max-width: 480px) {
+  .calculator {
+    margin-left: 0%;
+    margin-top:5%;
+  }
+  .calculator h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+  .input-box {
+    padding: 15px;
+    display: grid;
+  }
+  .input-box input {
+    margin-right: 0px;
+  }
+  .input-box button {
+    margin-top: 10px;
+  }
 }
